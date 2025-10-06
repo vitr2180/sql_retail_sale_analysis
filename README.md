@@ -117,7 +117,7 @@ November recorded the highest average sales, suggesting a seasonal or promotiona
 
 Clone this repository or download the files:
 
-git clone https://github.com/yourusername/retail-sales-sql-analysis.git
+git clone https://github.com/vitr2180/retail-sales-sql-analysis.git
 
 
 Open PostgreSQL (pgAdmin) and create a new database.
@@ -148,4 +148,5 @@ Recreated and Analyzed by: Vi Truong
 
 Database Used: PostgreSQL
 
-Purpose: SQL Learning & Data Analytics Practice
+
+
