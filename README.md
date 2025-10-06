@@ -103,7 +103,7 @@ Key SQL concepts used:
 
 ## How to Run This Project
 1. Clone the repository:
-   git clone https://github.com/yourusername/retail-sales-sql-analysis.git
+   git clone https://github.com/vitr2180/retail-sales-sql-analysis.git
 2. Open pgAdmin and create a new PostgreSQL database.
 3. Import the dataset SQL - Retail Sales Analysis_utf.csv into the retail_sales table.
 4. Run the SQL script retail_sales_analysis.sql sequentially to create the table, clean data, and perform analysis.
@@ -125,5 +125,6 @@ Key SQL concepts used:
 - Recreated and Analyzed by: Vi Truong
 - Database Used: PostgreSQL
 - Purpose: SQL Learning and Portfolio Project
+
 
 
