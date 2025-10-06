@@ -56,8 +56,6 @@ WHERE transactions_id IS NULL
    OR cogs IS NULL
    OR total_sale IS NULL;
 
----
-
 🔍 Exploratory Queries
 
 Basic exploration was performed to understand data volume, diversity, and structure:
