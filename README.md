@@ -7,7 +7,7 @@ It was completed as a self-learning project by following [Najir Hossain’s Reta
 Through this project, I practiced:
 - Database design and data cleaning  
 - Exploratory SQL queries  
-- Business analysis using window functions and aggregations  
+- Business analysis using aggregate and window functions  
 
 ---
 
@@ -58,44 +58,93 @@ WHERE transactions_id IS NULL
 
 ---
 
+🔍 Exploratory Queries
 
-## 🔍 Exploratory Queries
 Basic exploration was performed to understand data volume, diversity, and structure:
 
-- **Total number of sales**
-- **Number of unique customers**
-- **Product categories available**
-- **Data validation for missing values and duplicates**
+Total number of sales
 
----
+Number of unique customers
 
-## 🧠 Business Questions Answered
-The project used SQL queries to answer 10 business-focused analytical questions:
+Product categories available
 
-1. Retrieve all sales made on **November 5, 2022**.  
-2. Find transactions where the category is **'Clothing'** and **quantity > 4** in **November 2022**.  
-3. Calculate **total sales** and **number of orders** by category.  
-4. Find the **average age** of customers who purchased from the **Beauty** category.  
-5. Identify all **high-value transactions** where **total_sale > 1000**.  
-6. Count total transactions by **gender** and **category**.  
-7. Calculate the **average sale per month** and find the **best-selling month per year**.  
-8. Identify the **Top 5 customers** based on total sales value.  
-9. Count the **number of unique customers** per category.  
-10. Categorize transactions by **time of day** (Morning, Afternoon, Evening) based on `sale_time`.
+Data validation for missing values and duplicates
 
----
+💡 Business Questions Answered
 
-## 📈 Key Insights
-- **Clothing** and **Beauty** were the top-performing categories.  
-- The **Afternoon shift** recorded the highest number of transactions.  
-- The **average customer age** in the Beauty category was lower than in other segments.  
-- A small group of **loyal customers** generated a significant portion of total sales.  
+The project used SQL queries to answer ten business-focused analytical questions:
 
----
+Retrieve all sales made on November 5, 2022.
 
-## ⚙️ How to Reproduce
-1. Clone this repository or download the files.  
-2. Open your PostgreSQL environment (pgAdmin or psql).  
-3. Create a new database and run the SQL script:
-   ```sql
-   \i retail_sales_analysis.sql
+Find transactions where the category is 'Clothing' and quantity > 4 in November 2022.
+
+Calculate total sales and number of orders by category.
+
+Find the average age of customers who purchased from the Beauty category.
+
+Identify all high-value transactions where total_sale > 1000.
+
+Count total transactions by gender and category.
+
+Calculate the average sale per month and find the best-selling month per year.
+
+Identify the Top 5 customers based on total sales value.
+
+Count the number of unique customers per category.
+
+Categorize transactions by time of day (Morning, Afternoon, Evening) based on sale_time.
+
+📈 Key Insights
+
+Clothing and Beauty were the top-performing categories.
+
+The Afternoon shift recorded the highest number of transactions.
+
+The average customer age for Beauty products was lower than other categories.
+
+A small group of loyal customers contributed significantly to total sales.
+
+⚙️ How to Reproduce
+
+Clone this repository or download the files.
+
+Open your PostgreSQL environment (pgAdmin or psql).
+
+Create a new database and run the SQL script:
+
+\i retail_sales_analysis.sql
+
+
+Import the dataset SQL - Retail Sales Analysis_utf.csv into the retail_sales table.
+
+Execute each query block to reproduce the analysis and validate the results.
+
+🚀 Future Enhancements
+
+Build a dashboard using Tableau or Power BI for visualization.
+
+Add multi-year data for trend and seasonality analysis.
+
+Create views or stored procedures for automated summary reports.
+
+🧑‍💻 Credits
+
+Tutorial Author: Najir Hossain
+
+YouTube Tutorial: Retail Sales Analysis SQL Project (P1)
+
+Dataset Source: Author’s GitHub Repository
+
+Recreated & Documented by: Vi Truong
+
+✨ Learning Reflection
+
+This project helped strengthen my understanding of:
+
+Writing SQL queries for real-world business analytics
+
+Cleaning and preparing data efficiently in SQL
+
+Using aggregate and window functions for trend analysis
+
+Translating business problems into structured analytical SQL logic
