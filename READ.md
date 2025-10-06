@@ -5,6 +5,7 @@ This project analyzes retail transaction data to uncover key insights into custo
 It was completed as a self-learning exercise by following a YouTube tutorial by Najir Hossain and replicating his project using the dataset from his GitHub repository.
 
 YouTube tutorial: https://www.youtube.com/watch?v=ChIQjGBI3AM&t=356s
+
 GitHub source: https://github.com/najirh/Retail-Sales-Analysis-SQL-Project--P1/tree/main
 
 The goal of this project was to strengthen SQL querying skills by performing end-to-end data cleaning, exploration, and analysis to answer real-world business questions.
@@ -124,4 +125,5 @@ Key SQL concepts used:
 - Recreated and Analyzed by: Vi Truong
 - Database Used: PostgreSQL
 - Purpose: SQL Learning and Portfolio Project
+
 
