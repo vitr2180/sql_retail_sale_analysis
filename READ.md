@@ -1,4 +1,4 @@
-# Retail Sales Analysis Using SQL (PostgreSQL)
+# Retail Sales Analysis Using SQL 
 
 ## Project Overview
 This project analyzes retail transaction data to uncover key insights into customer behavior, sales performance, and product category trends using PostgreSQL.
@@ -124,3 +124,4 @@ Key SQL concepts used:
 - Recreated and Analyzed by: Vi Truong
 - Database Used: PostgreSQL
 - Purpose: SQL Learning and Portfolio Project
+
