@@ -58,6 +58,7 @@ WHERE transactions_id IS NULL
 
 ---
 
+
 ## 🔍 Exploratory Queries
 Basic exploration was performed to understand data volume, diversity, and structure:
 
